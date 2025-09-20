@@ -1,0 +1,175 @@
+body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: #262936
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 64px;
+    height: 34px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.title p{
+    color: #BFC1C8 !important;
+}
+
+p {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+ul.navbar-nav .nav-item .nav-link {
+    padding: 2px 25px;
+    border-radius: 30px;
+
+}
+
+.home .nav-link{
+    color:#009ad8 !important;
+    border: 1px solid #009ad8 ;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color:#009ad8;
+    border: 1px solid #009ad8 ;
+}
+
+.middel {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+input.form-control {
+    background-color: #1e202b;
+    border: none;
+}
+
+.form-control:focus {
+    border: 0 !important;
+    background-color: #1e202b;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: gray;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.find-btn {
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #009ad8;
+    border: none;
+    color: white;
+}
+
+.navbar,
+.middel,
+.forcast-table {
+    background-color: #1e202b;
+}
+
+.last-sec {
+    background-color: #262936;
+}
+
+.copy {
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+
+.icons .icon-bg {
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    text-align: center;
+    color: #009ad8;
+
+}
+
+.icons .icon-bg:hover {
+    background-color: #009ad8;
+    color: white;
+}
+
+
+.icon-bg i {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.gray-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.degree {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+header {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #1e202b;
+}
+
+.card {
+    color: rgb(191, 193, 200);
+    background-color: #262936;
+}
+
+.forcast-img {
+    width: 90px;
+    height: 90px;
+}
+
+.second-forcast-card {
+    background-color: #1e202b;
+}
+
+.second-forcast-card header {
+    background-color: #262936;
+}
+
+#num2,
+#num3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.second,
+.third {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(191, 193, 200);
+}
+
+#forcast-custom {
+    font-size: 16px;
+    font-weight: 400;
+
+}

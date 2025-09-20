@@ -1,0 +1,112 @@
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container p-4">
+    <a class="navbar-brand d-flex ps-5" href="#">
+        <img src="./images/logo@2x.png" class="logo">
+                <div class="title ps-2">
+                    <h1 class=" mb-0 text-white">Weather</h1>
+                    <p class=" mt-1 text-secondary ">tagline goes here</p>
+                </div>
+
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+
+      <ul class="navbar-nav ms-auto  mb-lg-0">
+        <li class="nav-item home  px-2  ">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item  px-2">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#">Live cameras</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="middel">
+<div class="container p-5">
+    <div class="search position-relative">
+    <input type="text" id="cityInput" class="form-control mt-3 text-white rounded-pill px-2 py-3 " placeholder="Find your Location...">
+    <input type="button" id="searchBtn" value="Find" class="find-btn position-absolute">
+    </div>
+
+<section class="forcast-table mt-5">
+<div class="container">
+  <div class="row">
+
+  <div class="col-md-4 p-0 ">
+    <div class="card current" id="currentCard" ></div>
+  </div>
+
+  <div class="col-md-4 p-0"> 
+    <div class="card second-forcast-card h-100" id="secondCard"></div>
+  </div>
+
+  <div class="col-md-4 p-0"> 
+    <div class="card third-forcast-card h-100" id="thirdCard"></div>
+  </div>  
+
+</div>
+</div>
+
+</section>
+</div>
+</section>
+
+<section class="last-sec  ">
+    <div class="container p-5">
+        <div class="row pt-4">
+            <div class="col-md-7  ">
+                <div class="search position-relative">
+    <input type="text" class="form-control last mt-3 text-white rounded-pill px-2 py-3 " placeholder="Enter your email to subscribe...">
+    <input type="button" value="Subscribe" class="find-btn position-absolute">
+    </div>
+    <p class="ps-3 pt-4 copy">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+            <div class="col-md-5 ps-5  ">
+            <div class="icons  mt-3 p-1 ps-4 d-flex align-items-center">
+                <a class="icon-bg m-1"> <i class="fa-brands fa-facebook-f"></i> </a>
+                <a class="icon-bg m-1"> <i class="fa-brands fa-twitter"></i> </a>
+                <a class="icon-bg m-1"> <i class="fa-brands fa-google-plus-g"></i></a>
+                <a class="icon-bg m-1"> <i class="fa-brands fa-pinterest-p"></i> </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

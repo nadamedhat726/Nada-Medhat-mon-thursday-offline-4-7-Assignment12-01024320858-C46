@@ -18,7 +18,7 @@ searchBtn.onclick = () => {
 
 async function getWeather(city) {
   try {
-    let res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=c49b0f7ea9d049c9ac4224238251809&q=${city}&days=3`);
+    let res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=c49b0f7ea9d049c9ac4224238251809&q=${city}&days=3`);
     let data = await res.json();
     showWeather(data);
     localStorage.setItem("lastWeather", JSON.stringify(data));
